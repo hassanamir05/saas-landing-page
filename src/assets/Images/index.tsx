@@ -11,7 +11,7 @@ import Google from "./google.png";
 import Logo from "./logo.png";
 import Main from "./main.png";
 import Notification from "./notification.png";
-import Oval from "./oval.png";
+import Oval from "./Oval.png";
 import Perfect from "./perfect.png";
 import Shopify from "./shopify.png";
 
