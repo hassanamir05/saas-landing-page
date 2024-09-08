@@ -67,7 +67,7 @@ const Testimonials = () => {
           {/* Author Name */}
           <ActionLine
             content={testimonialsData[currentTestimonial].author}
-            customClass="text-[14px] text-center midDevice:text-[14px] mobile:text-[14px] m-0 mobile:px-[30px] p-0 transition-opacity duration-500"
+            customClass="text-[14px] text-center tablet:text-[14px] midDevice:text-[14px] mobile:text-[14px] m-0 mobile:px-[30px] p-0 transition-opacity duration-500"
           />
         </div>
       </div>
