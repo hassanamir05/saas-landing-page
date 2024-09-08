@@ -3,7 +3,6 @@ import {
   AboutUs,
   Questions,
   CallToAction,
-  Footer,
   GetStarted,
   Testimonials,
 } from "../../Pages";

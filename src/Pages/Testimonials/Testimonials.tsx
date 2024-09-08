@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { Button } from "../../Components/Button";
 import { Text, ActionLine } from "../../Components/Text";
 import { Oval } from "../../assets/Images";

@@ -1,7 +1,5 @@
-import { Navbar } from "./Components/Navbar";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import {
-  HeroSection,
   AboutUs,
   CallToAction,
   Footer,
