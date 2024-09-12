@@ -53,7 +53,7 @@ const Testimonials = () => {
 
         {/* Wrap the testimonial content with transition classes */}
         <div
-          className={`transform transition-transform duration-500 ease-in-out ${
+          className={`transform transition-transform duration-500 ease-in-out flex flex-col justify-center items-center ${
             isAnimating
               ? "translate-x-0 opacity-0"
               : "translate-x-0 opacity-100"
@@ -62,13 +62,12 @@ const Testimonials = () => {
           {/* Testimonial Text */}
           <Text
             content={testimonialsData[currentTestimonial].text}
-            customClass="mobile:px-[20px] text-center m-0 p-0 transition-opacity duration-500"
+            customClass="mobile:px-[20px] text-center m-0 p-0 transition-opacity duration-500 m"
           />
           {/* Author Name */}
-          <ActionLine
-            content={testimonialsData[currentTestimonial].author}
-            customClass="text-[14px] text-center tablet:text-[14px] midDevice:text-[14px] mobile:text-[14px] m-0 mobile:px-[30px] p-0 transition-opacity duration-500"
-          />
+          <p className=" text-primary font-ibm text-[18px] text-center tablet:text-[14px] midDevice:text-[14px] mobile:text-[14px] m-0 mobile:px-[30px] p-0 transition-opacity duration-500">
+            {testimonialsData[currentTestimonial].author}
+          </p>
         </div>
       </div>
 

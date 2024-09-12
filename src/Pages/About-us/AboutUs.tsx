@@ -14,14 +14,15 @@ const AboutUs = () => {
   return (
     <div className="flex  flex-col justify-center items-center  w-full max-w-[1132px] px-[20px] mobile:py-[20px] mobile:pb-0 mobile:mb-0 gap-y-[30px] mt-[20px] mobile:mt-0">
       <div className="flex flex-col w-full text-center  max-w-[800px]">
-        <Heading
-          content="A project planner that won't let anything slip through the cracks"
-          customClass=" w-full max-w-[746px] midDevice:text-[23px] midDevice:text-center max-w-full midDevice:max-w-full"
-        />
-        <Text
-          content="Lovely to look at and easy-to-use, Projećt gives teams a visual overview of who’s doing what, and what’s coming up next. That means less stress and better results."
-          customClass=" max-w-[800px] px-4 text-center laptop:text-dark tablet:text-dark midDevice:text-dark midDevice:max-w-full text-[20px]"
-        />
+        <p className=" font-poppins font-bold text-[30px] w-full max-w-[746px] midDevice:text-[23px] midDevice:text-center midDevice:max-w-full mobile:text-[25px]">
+          A project planner that won't let anything slip through the cracks
+        </p>
+
+        <p className="text-light font-ibm max-w-[800px] px-4 text-center laptop:text-dark tablet:text-dark midDevice:text-dark midDevice:max-w-full text-[20px] mobile:text-[16px]">
+          Lovely to look at and easy-to-use, Projećt gives teams a visual
+          overview of who’s doing what, and what’s coming up next. That means
+          less stress and better results.
+        </p>
       </div>
       <div>
         <img src={AboutUsImage} alt="iamge" />
