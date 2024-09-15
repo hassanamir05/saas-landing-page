@@ -10,7 +10,7 @@ const pointsData = [
 
 const HeroSection = () => {
   return (
-    <div className="flex flex-row justify-center items-center midDevice:flex-col w-full max-w-[1132px] mobile:px-[20px] gap-y-[20px] desktop:my-[100px] wide-desktop:my-[100px]">
+    <div className="flex flex-row justify-center items-center midDevice:flex-col w-full max-w-[1132px] mobile:px-[20px] gap-y-[20px] desktop:my-[0px] wide-desktop:my-[100px]">
       {/*Contet Portion*/}
       <div className=" w-[50%] midDevice:w-full flex flex-col justify-center midDevice:items-center midDevice:px-3 mb-10">
         <Heading

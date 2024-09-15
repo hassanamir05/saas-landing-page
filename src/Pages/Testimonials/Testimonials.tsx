@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Button } from "../../Components/Button";
-import { Text, ActionLine } from "../../Components/Text";
+import { Text } from "../../Components/Text";
 import { Oval } from "../../assets/Images";
 
 // Array to hold testimonials data
