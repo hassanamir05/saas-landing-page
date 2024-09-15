@@ -79,6 +79,7 @@ const Testimonials = () => {
           customClass="text-3xl bg-[primary 8%] text-primary cursor-pointer transition-all duration-500 hover:scale-110"
           onClick={handlePrev}
         />
+
         {/* Next Button */}
         <Button
           name=">"
