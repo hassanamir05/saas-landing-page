@@ -1,13 +1,21 @@
-import { Heading, Text } from "../../Components/Text";
-import {
-  AboutUsImage,
-  Google,
-  AirBnb,
-  Asana,
-  Amazon,
-  Shopify,
-} from "../../assets/Images";
+//assets
+// import{
+//  AboutUsImage,
+// Google,
+// AirBnb,
+// Asana,
+// Amazon,
+// Shopify} from
+// "../../assets/Images";
 
+import AboutUsImage from "../../assets/Images/about-us.png";
+import Google from "../../assets/Images/google.png";
+import AirBnb from "../../assets/Images/airbnb.png";
+import Asana from "../../assets/Images/asana.png";
+import Amazon from "../../assets/Images/amazon.png";
+import Shopify from "../../assets/Images/shopify.png";
+
+//components
 import { Image } from "../../Components/Image";
 
 const AboutUs = () => {
@@ -25,7 +33,7 @@ const AboutUs = () => {
         </p>
       </div>
       <div>
-        <img src={AboutUsImage} alt="iamge" />
+        <img src={AboutUsImage} alt="image" />
       </div>
       <div className="flex  justify-around items-center flex-wrap w-full max-w-[964px] gap-y-[20px] mobile:mt-5 mt-8">
         <Image imgSrc={Google} />
